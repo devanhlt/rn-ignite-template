@@ -1,4 +1,4 @@
-package vn.baspro.dvgo.app;
+package com.sachvechai.app;
 
 import android.app.Application;
 import android.content.res.Configuration;

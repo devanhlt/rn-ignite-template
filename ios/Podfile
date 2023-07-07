@@ -40,7 +40,7 @@ elsif podfile_properties.key?('ios.flipper') then
   end
 end
 
-target 'dvgoapp' do
+target 'JLRNTemplate' do
   use_expo_modules!
   config = use_native_modules!
 
@@ -64,7 +64,7 @@ target 'dvgoapp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'dvgoappTests' do
+  target 'JLRNTemplateTests' do
     inherit! :complete
     # Pods for testing
   end

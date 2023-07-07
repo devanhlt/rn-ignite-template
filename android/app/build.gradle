@@ -113,9 +113,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "vn.baspro.dvgo.app"
+    namespace "com.sachvechai.app"
     defaultConfig {
-        applicationId "vn.baspro.dvgo.app"
+        applicationId "com.sachvechai.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

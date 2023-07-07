@@ -1,4 +1,4 @@
-package vn.baspro.dvgo.app;
+package com.sachvechai.app;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "dvgoapp";
+    return "JL-RN-Template";
   }
 
   /**
