@@ -1,0 +1,51 @@
+{
+  "name": "Zaxis",
+  "displayName": "Zaxis",
+  "expo": {
+    "name": "Zaxis",
+    "slug": "Zaxis",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon-all.png",
+    "splash": {
+      "image": "./assets/images/splash-logo-all.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EBF7FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "icon": "./assets/images/app-icon-android-legacy.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+      },
+      "splash": {
+        "backgroundColor": "#EBF7FF",
+        "image": "./assets/images/splash-logo-android-universal.png",
+        "resizeMode": "contain"
+      }
+    },
+    "ios": {
+      "icon": "./assets/images/app-icon-ios.png",
+      "supportsTablet": true,
+      "splash": {
+        "backgroundColor": "#EBF7FF",
+        "image": "./assets/images/splash-logo-ios-mobile.png",
+        "resizeMode": "contain"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app-icon-web-favicon.png",
+      "splash": {
+        "backgroundColor": "#EBF7FF",
+        "image": "./assets/images/splash-logo-web.png",
+        "resizeMode": "contain"
+      }
+    }
+  }
+}
